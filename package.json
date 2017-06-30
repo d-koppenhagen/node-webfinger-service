@@ -1,8 +1,11 @@
 {
   "name": "webfinger-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a simple webfinger service for node.js",
   "main": "bin/webfinger-service",
+  "bin": {
+    "webfinger": "./bin/webfinger-service"
+  },
   "scripts": {
     "test": "echo \"no tests specified\" && exit 0"
   },
