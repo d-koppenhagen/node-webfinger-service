@@ -22,12 +22,12 @@
     "server"
   ],
   "dependencies": {
-    "body-parser": "^1.13.3",
-    "errorhandler": "^1.4.2",
-    "express": "^4.13.3",
+    "body-parser": "^1.17.2",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.3",
     "http": "0.0.0",
-    "method-override": "^2.3.5",
-    "morgan": "^1.6.1",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
     "path": "^0.12.7",
     "walk": "^2.3.9"
   }
