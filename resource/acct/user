@@ -1,5 +1,9 @@
 module.exports = {
-  "subject" : "acct:user@example.com",
+  "subject" : "acct:user@localhost",
+  "properties": {
+    "http://localhost:8082/stubs/SimpleStub.js": "localStub",
+    "ws://something": "messagingServer"
+  },
   "links" :
   [
     {
